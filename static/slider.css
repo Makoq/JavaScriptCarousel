@@ -1,0 +1,38 @@
+#container {
+  position: relative;
+  height: 200px;
+  width: 500px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+.item {
+  height: 198px;
+  width: 498px;
+  border: 1px solid pink;
+  position: relative;
+  margin: 0px;
+
+  z-index: -99;
+}
+#wrap {
+  padding: 0px;
+
+  display: -webkit-box;
+  position: absolute;
+  left: 0;
+}
+
+.btns {
+  margin-top: 180px;
+  margin-left: 50%;
+  z-index: 999;
+}
+#left {
+  position: absolute;
+  margin-top: -100px;
+}
+#right {
+  position: absolute;
+  margin-top: -100px;
+  margin-left: 450px;
+}
