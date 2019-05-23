@@ -1,0 +1,37 @@
+#container{
+    width:600px;
+    height: 400px;
+
+    overflow: hidden;
+    position:absolute;
+}
+.wrap{
+    display: -webkit-box;
+    left: 0px;
+    
+    position:absolute;
+    
+}
+.item{
+    width: 600px;
+    height:400px;
+      
+}
+.btns{
+    position: relative;
+    margin-top: 50%;
+    margin-left: 30%;
+}
+
+.arrow{
+position: absolute;
+margin-top: 25%;
+z-index: 999;
+}
+
+#right{
+margin-left: 460px
+}
+#left{
+margin-left:0px;
+}
